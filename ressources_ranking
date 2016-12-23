@@ -1,0 +1,10 @@
+DATA Sources
+
+MEAN LEAD : http://www.ifsc-climbing.org/index.php/world-competition#!type=ranking&cat=ICC_M&detail=1
+WOMEN LEAD : http://www.ifsc-climbing.org/index.php/world-competition#!type=ranking&cat=ICC_F&detail=1
+
+MEN BOULDER : http://www.ifsc-climbing.org/index.php/world-competition#!type=ranking&cat=ICC_MB&detail=1
+WOMEN BOULDER : http://www.ifsc-climbing.org/index.php/world-competition#!type=ranking&cat=ICC_FB&detail=1
+
+MEN SPEED : http://www.ifsc-climbing.org/index.php/world-competition#!type=ranking&cat=ICC_MS
+WOMEN SPEED : http://www.ifsc-climbing.org/index.php/world-competition#!type=ranking&cat=ICC_FS

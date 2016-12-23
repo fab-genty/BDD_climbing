@@ -1,0 +1,17 @@
+athlete(id_mbr, nom, prenom, date_naiss, mbr_ville, mbr_pays, telephone, sexe)
+
+Specialite(id_spec, specialite)
+
+Lieu(id_lieu, lieu_ville, lieu_pays, nb_voies)
+
+Competition(id_comp, nom_comp, date, nb_places, frais)
+
+Sponsor(id_spons, nom_sponsor, budget)
+
+Discipline(id_discip, nom_discip)
+
+Localisation(id_lieu, id_comp)
+
+Sponsorise(id_comp, id_spons)
+
+Participe(id_comp, id_mbr, id_discip, resultat)
