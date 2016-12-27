@@ -1,35 +1,179 @@
---athlete(id_mbr, nom, prenom, date_naiss, mbr_ville, mbr_pays, sexe)
+--Discipline(id_discip, nom_discip)
+insert into Discipline (nom_discip) values('Bloc');
+insert into Discipline(nom_discip) values('Difficulte');
+insert into Discipline(nom_discip) values('Vitesse');
+------------------------------
+------------------------------
+
+--WOMEN
+--LEAD
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays, sexe) values ('GARBRET','Janja',1999,'Smartno','Slovenie','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values('VERHOEVEN','Anak',2000,'Schriek','Belgique','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values('KIM','Jain',1988,'Seoul','Coree','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values('MAGDALENA','Röck',1994,'Landeck','Autriche','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values('MARKOVIC','Mina',1957,'Paris','France','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values('ROMAIN','Salomé',1999,'Briancon','France','F');
+
+--BOULDER
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values(' COXSEY ','Shauna',1993,'London','Angleterre','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values(' KLINGER ','Petra',1980,'Zurich','Suisse','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values(' NONAKA ','Miho',1973,'Tokyo','Japon','F');
+--speed
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values(' JAUBERT ','Anouck',1996,'Toulouse','France','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values(' RETSCHY ','Monica',1991,'München ','Allemagne','F');
+insert into Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values(' YIP','Alannah',1993,'Vancouver','Canada','F');
+
+---------------------------------------
+---------------------------------------
+--MEN
+
+--athlete(id_mbr, nom, prenom, date_naissance, mbr_ville, mbr_pays, sexe)
 -- LEAD
-INSERT INTO Athlete values ('','SKOFIC','Damian',1994,'Radovljica','Slovenie','M');
-INSERT INTO Athlete values ('','SCHUBERT','Jakob',1990,'Innsbruck','Autriche','M');
-INSERT INTO Athlete values ('','DESGRANGES','Romain',1982,'Sainte-Colombe','France','M');
-INSERT INTO Athlete values ('','GHISOLFI','Stefano',1993,'Turin','Italie','M');
-INSERT INTO Athlete values ('','SUPPER','Gautier',1990,'Colmar','France','M');
-INSERT INTO Athlete values ('','MCCOLL','Sean',1987,'North-Vancouver','Canada','M');
-INSERT INTO Athlete values ('','HALENKE','Sebastian',1995,'Giengen an der Brenz','Allemagne','M');
-INSERT INTO Athlete values ('','JOANNES','Thomas',1994,'Neyron','France','M');
-INSERT INTO Athlete values ('','KORENAGA','Keiichiro',1996,'Saitama','Japon','M');
-INSERT INTO Athlete values ('','PRIMOZIC','Urban',1992,'Skofja Loka','Slovenie','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('SKOFIC','Damian',1994,'Radovljica','Slovenie','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('SCHUBERT','Jakob',1990,'Innsbruck','Autriche','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('DESGRANGES','Romain',1982,'Sainte-Colombe','France','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('GHISOLFI','Stefano',1993,'Turin','Italie','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('SUPPER','Gautier',1990,'Colmar','France','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('MCCOLL','Sean',1987,'North-Vancouver','Canada','M');
 
 -- BOULDER
-INSERT INTO Athlete values ('','NARASAKI','Tomoa',1996,'Utunomiya','Japon','M');
-INSERT INTO Athlete values ('','FUJII','Kokoro',1992,'Hamamatsu','Japon','M');
-INSERT INTO Athlete values ('','RUBTSOV','Alexey',1988,'Moscow','Russie','M');
-INSERT INTO Athlete values ('','CHON','Jongwon',1996,'Seoul','Coree','M');
-INSERT INTO Athlete values ('','GELMANOV','Rustam',1987,'Eindhoven','Russie','M');
-INSERT INTO Athlete values ('','BONDER','Jeremy',1991,'Paris','France','M');
-INSERT INTO Athlete values ('','STRANIK','Martin',1990,'Chocen','République Tcheque','M');
-INSERT INTO Athlete values ('','MAWEM','Mickael',1990,'Aubervilliers','France','M');
-INSERT INTO Athlete values ('','JERNEJ','Kruder',1990,'Skofja vas','Slovenie','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('NARASAKI','Tomoa',1996,'Utunomiya','Japon','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('FUJII','Kokoro',1992,'Hamamatsu','Japon','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('RUBTSOV','Alexey',1988,'Moscow','Russie','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('CHON','Jongwon',1996,'Seoul','Coree','M');
 
 -- speed
-INSERT INTO Athlete values ('','DZIENSKI','Marcin',1993,'Tarnow','Pologne','M');
-INSERT INTO Athlete values ('','KOKORIN','Stanislav',1990,'Tyumen','Russie','M');
-INSERT INTO Athlete values ('','MAWEM','Bassa',1984,'Nancy','France','M');
-INSERT INTO Athlete values ('','ALIPOURSHENAZANDIFAR','Reza',1994,'Tehran','Iran','M');
-INSERT INTO Athlete values ('','BOLDYREV','Danyil',1992,'Donetsk','Ukraine','M');
-INSERT INTO Athlete values ('','HROZA','Libor',1987,'Decin','République Tcheque','M');
-INSERT INTO Athlete values ('','GONTERO','Leonardo',1993,'Bussoleno','Italie','M');
-INSERT INTO Athlete values ('','TIMOFEEV','Dmitri',1993,'Yekaterinburg','Russie','M');
-INSERT INTO Athlete values ('','NAMBOT','Quentin',1995,'Montelier','France','M');
-INSERT INTO Athlete values ('','MORO', 'Guillaume',1994,'Saint didier de Formans','France','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('DZIENSKI','Marcin',1993,'Tarnow','Pologne','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('KOKORIN','Stanislav',1990,'Tyumen','Russie','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('MAWEM','Bassa',1984,'Nancy','France','M');
+INSERT INTO Athlete (nom, prenom, date_naissance, mbr_ville, mbr_pays,  sexe)  values ('ALIPOURSHENAZANDIFAR','Reza',1994,'Tehran','Iran','M');
+
+--Lieu(id_lieu, ville, pays, nb_voie)
+-- LEAD and SPEED
+
+insert into lieu (ville, pays, nb_voie) values ('Kranj','Slovenie',17); -- 1
+insert into lieu (ville, pays, nb_voie)  values ('Xiamen','Chine',17); -- 2
+insert into lieu (ville, pays, nb_voie)  values ('Paris','France',20); -- 3
+insert into lieu (ville, pays, nb_voie)  values ('Arco','Italie',25); -- 4
+ -- BOULDER
+insert into lieu (ville, pays, nb_voie)  values ('Munich','Allemagne',30); -- 5
+insert into lieu (ville, pays, nb_voie)  values ('Vail','USA',15); -- 6
+insert into lieu (ville, pays, nb_voie)  values ('Mumbai','Inde',28); -- 7
+
+
+-- date AAAA-MM-JJ
+--id_discip |                     nom_discip
+-----------+----------------------------------------------------
+--        1 | Bloc
+--        2 | Difficulte
+--        3 | Vitesse
+-- Competition(id_comp, nom_comp,date_comp, id_discip, id_lieu , nb_places, cout)
+
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Kranj WC','2016-11-26',2,1,35657); -- 1
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Xiamen WC','2016-10-22',2,2,45057);-- 2
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Paris WCD','2016-09-14',2,3,127000);-- 3
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Arco WC','2016-09-14',2,4,42786);-- 4
+
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Xiamen WC','2016-10-22',3,2,4057);-- 5
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Paris WCV','2016-09-14',3,3,17000);--6
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Arco WC','2016-08-26',3,4,4286);-- 7
+
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Paris WCB','2016-09-14',1,4,34286);-- 8
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Munich WC','2016-08-12',1,5,53765);-- 9
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Vail WC','2016-06-10',1,6,43295);-- 10
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Mumbai WC','2016-05-14',1,7,23295);-- 11
+
+
+
+insert into Sponsor(nom_sponsor,budget) values ('Red Bull',50000); -- 1
+insert into Sponsor(nom_sponsor,budget) values ('Salomon',1000000); -- 2
+insert into Sponsor(nom_sponsor,budget) values ('Petzl',10000); --3
+
+insert into Sponsorise(id_comp, id_spons,budget) values(1,1,12981);
+insert into Sponsorise(id_comp, id_spons,budget) values(2,2,15678);
+insert into Sponsorise(id_comp, id_spons,budget) values(3,3,67546);
+insert into Sponsorise(id_comp, id_spons,budget) values(4,1,12343);
+insert into Sponsorise(id_comp, id_spons,budget) values(5,2,2789);
+insert into Sponsorise(id_comp, id_spons,budget) values(6,3,2067);
+insert into Sponsorise(id_comp, id_spons,budget) values(7,1,878);
+insert into Sponsorise(id_comp, id_spons,budget) values(8,1,14568);
+insert into Sponsorise(id_comp, id_spons,budget) values(9,2,30876);
+insert into Sponsorise(id_comp, id_spons,budget) values(10,3,2095);
+insert into Sponsorise(id_comp, id_spons,budget) values(11,1,7809);
+
+
+--LEAD
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,1,69.6);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,1,24.79);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,1,50.05);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,1,44.55);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,2,56.55);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,2,43.55);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,2,72.8);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,2,64.8);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,3,37.41);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,3,34.17);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,3,46.41);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,3,81);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,4,47.85);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,4,67);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,4,39.13);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,4,29.97);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,5,22.62);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,5,36.85);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,5,59.15);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,5,7.29);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,6,32.19);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,6,22.78);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,6,42.77);
+
+
+--SPEED
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,23,18.20);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,23,83);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,23,63);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,24,70);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,24,39.01);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,24,21.42);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,25,56);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,25,45.65);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,25,40.95);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,26,28);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,26,66.4);
+
+
+--BOULDER
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,19,95);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,19,88);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,19,56);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,19,44.8);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,20,25.65);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,20,35.2);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,20,70);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,20,56);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,21,40.85);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,21,57.2);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,21,45.5);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,21,36.4);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,22,35.15);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,22,70.40);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,22,18.20);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,22,30.80);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,18,22.8);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,18,32.9);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,18,19.04);
