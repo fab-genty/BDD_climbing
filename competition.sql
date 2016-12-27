@@ -12,11 +12,10 @@ CREATE TABLE Athlete(
     id_mbr SERIAL PRIMARY KEY,
     nom CHAR(50),
     prenom CHAR(50),
-    date_naissance DATE,
+    date_naissance INTEGER,
     mbr_ville CHAR(50),
     mbr_pays CHAR(50),
-    telephone INTEGER,
-    SEXE BOOLEAN
+    SEXE CHAR(2)
 );
 
 --CREATE TABLE Specialite(
