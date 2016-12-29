@@ -12,6 +12,9 @@ projet
     - Stay positive
 
 ## A lire pour Fabien (update **28/12/2016**):  
+- **Fait :** :   
+    - Rassemblé `competition_v2.sql` et `competition.sql`
+- **A faire** :  
     - Rajouter données pour femmes (12 atheletes, mais 6 qui participent seulement)
     - C'est parti pour les requêtes !
     - Stay positive :-)
