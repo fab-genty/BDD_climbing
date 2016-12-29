@@ -187,8 +187,8 @@ INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES (
 INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('WC Climbing Worldcup','2017-11-22',1,10,NULL);-- 17
 INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('WC Climbing Worldcup','2017-11-22',2,10,NULL);-- 18
 
-INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Climbing CHINAcup2017-09-15',1,11,NULL);-- 19
-INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Climbing CHINAcup2017-09-15',1,11,NULL);-- 20
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Climbing CHINAcup','2017-09-15',1,11,NULL);-- 19
+INSERT INTO Competition (nom_comp,date_comp, id_discip, id_lieu , cout) VALUES ('Climbing CHINAcup','2017-09-15',1,11,NULL);-- 20
 
 
 
@@ -315,9 +315,3 @@ INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,9,60.80);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,9,69);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,9,36.72);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,9,65.00);
-
-
-
-
-
-
