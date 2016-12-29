@@ -18,3 +18,7 @@ projet
     - Rajouter données pour femmes (12 atheletes, mais 6 qui participent seulement)
     - C'est parti pour les requêtes !
     - Stay positive :-)
+    
+    pour lescrequetes sur les femmes tu avais deja remplies 6 atheletes , j'ai juste remplie le reste
+
+
