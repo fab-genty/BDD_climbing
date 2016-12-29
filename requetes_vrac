@@ -1,0 +1,48 @@
+-- le pays qui a le plus grand nombre d'Athlete
+select count(id_mbr),mbr_pays
+from athlete
+group by mbr_pays
+order by count(id_mbr) DESC
+limit 1;
+
+--**compte  le nombre d athlete par pays sans distinction de sexe 
+
+select count(id_mbr) AS nb_participant ,mbr_pays AS pays_origine
+from athlete
+group by mbr_pays 
+order by count(id_mbr) DESC;
+
+
+--**determine les pays qui ont plus de 2 athlete dans le club
+select count(id_mbr) AS nb_participant ,mbr_pays AS pays_origine
+from athlete
+group by mbr_pays 
+having count(id_mbr) > 2;
+
+
+--** le nom et prenom des athletes feminines classe par age croissant qui viennent d'un pays 
+--qui a deja organise une competition
+select nom ,prenom,mbr_pays
+from athlete
+where mbr_pays in(
+select distinct pays
+from lieu)
+AND sexe='F'
+order by date_naissance;
+
+--donne l'age de chaque participant par ordre decroissant
+select EXTRACT(YEARS FROM NOW()) - date_naissance AS Age,nom
+FROM athlete
+order by Age DESC;
+
+--**le pays qui a le plus de fois organisée des competitions
+
+select  distinct pays 
+from lieu
+where pays = ( select  pays
+from lieu
+group by pays
+order by  count(id_lieu) DESC
+limit 1);
+
+--** 
