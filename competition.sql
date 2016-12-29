@@ -190,34 +190,34 @@ insert into Sponsorise(id_comp, id_spons,budget) values(11,1,7809);
 
 --LEAD
 
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,1,69.6);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,1,24.79);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,1,50.05);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,1,44.55);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,13,69.6);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,13,24.79);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,13,50.05);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,13,44.55);
 
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,2,56.55);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,2,43.55);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,2,72.8);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,2,64.8);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,14,56.55);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,14,43.55);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,14,72.8);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,14,64.8);
 
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,3,37.41);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,3,34.17);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,3,46.41);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,3,81);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,15,37.41);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,15,34.17);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,15,46.41);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,15,81);
 
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,4,47.85);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,4,67);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,4,39.13);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,4,29.97);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,16,47.85);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,16,67);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,16,39.13);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,16,29.97);
 
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,5,22.62);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,5,36.85);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,5,59.15);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,5,7.29);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,17,22.62);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,17,36.85);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,17,59.15);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(4,17,7.29);
 
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,6,32.19);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,6,22.78);
-INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,6,42.77);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(1,18,32.19);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(2,18,22.78);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(3,18,42.77);
 
 
 --SPEED
@@ -236,6 +236,24 @@ INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,25,40.95);
 
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,26,28);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,26,66.4);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,10,60);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,10,66.43);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,10,13);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,11,45);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,11,23.3);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,11,33.14);
+
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(5,12,75);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(6,12,21);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(7,12,12.14);
+
+
+
+
+
 
 
 --BOULDER
@@ -263,3 +281,16 @@ INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,22,30.80);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,18,22.8);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,18,32.9);
 INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,18,19.04);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,7,55);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,7,57);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,7,24);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,8,76);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,8,6.21);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,8,31);
+
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(8,9,60.80);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(9,9,69);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(10,9,36.72);
+INSERT INTO Participe(id_comp,id_mbr,resulat) values(11,9,65.00);

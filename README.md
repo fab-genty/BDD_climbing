@@ -10,3 +10,8 @@ projet
 - **A faire**
     - Rentrer données de participation pour les femmes
     - Stay positive
+
+## A lire pour Fabien (update **28/12/2016**):  
+    - Rajouter données pour femmes (12 atheletes, mais 6 qui participent seulement)
+    - C'est parti pour les requêtes !
+    - Stay positive :-)
